@@ -1,0 +1,155 @@
+#title{
+    background-color: #fe3c72;
+    color: #ffffff;
+}
+/* heading section*/
+#intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+/* download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 1.125rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+#dld1,#dld2{
+    position: relative;
+    top: 0.93rem;
+}
+/* phone image */  
+/* took this seperate from the "row" div to better place it */
+#phngimg{
+    position: absolute;
+    width: 60%; /*60%*/
+    transform: rotate(25deg);
+    right: 30%;
+    /*height: 31.25rem;
+    top: 0.93rem;
+    left: 1.87rem;*/
+}
+/* Features section*/
+#features{
+    padding: 8% 16%;
+    background-color: #ffffff;
+    position: relative;
+}
+.feat-box{
+    text-align: center;
+    padding: 5%; /*content padding in the box*/
+}
+.feat-icon{
+    color: #ef8172;
+    padding-bottom: 1.25rem;
+}
+.feat-icon:hover{
+    color: #ff4c68;
+}
+h3{
+    font-family: 'Montserrat', sans-serif ;
+}
+p{
+    color: #8f8f8f;
+}
+/*Testimonials section*/  /*Caraouseld(slide show)*/
+#testimonials{  /*Instead of padding on the entire section of testimonial it's better ti pad on to the caraiusel item which has text and images so that the nav buttons doesn't get padded.*/
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+.carousel-item{
+    padding: 8% 16% ;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family:'Montserrat', sans-serif  ;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 1.25rem;
+}
+/*Press section*/
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 1.25rem 1.25rem 3.125rem;
+}
+/* Pricing section */
+#pricing{
+    text-align: center;
+    padding: 4.5rem 9.25rem 7.25rem;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+.card{
+    border: 1px solid;
+}
+/*Adjusting/fine tuning phone image using media queries*/
+@media (max-width:1028px){
+    #phngimg{
+        position: static;
+        transform: rotate(0deg);
+        padding-top: 30px;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/*Call to Action section*/
+
+#cta{
+    padding:8% 16%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #ffffff;
+}
+#cta h3{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 3.125rem;
+    line-height: 1.5;
+}
+
+/* Action Buttons */
+
+#cta button{
+    margin: 3% 1%;
+}
+#footer{
+    padding: 8% 16%;
+    text-align: center;
+    background-color: #ffffff;
+}
+#footer i{
+    margin: 0 1% 2%;
+}
+html{
+    scroll-behavior: smooth;
+}
